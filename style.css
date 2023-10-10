@@ -1,0 +1,102 @@
+.WorkArea {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 1600px;
+  background:#fff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: left;
+  color: black;
+}
+
+.WorkArea {
+  margin-top: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0px;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+/*параметры рабочей области*/
+
+
+
+/*Карточки*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    min-height: 300px;
+    margin: center;
+    text-align: center;
+    display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+    margin-right: 2em;
+}
+{
+    /* Добавляем тень */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* При наведении тень  */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+button2 {
+    border: none;
+    display: none;
+}
+
+
+/*Карточки*/
+
+
+.rav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
